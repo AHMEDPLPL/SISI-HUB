@@ -194,11 +194,11 @@ Toggle.Name = "Toggle"
 Toggle.Parent = ScreenGui
 Toggle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Toggle.Position = UDim2.new(0, 0, 0.454706937, 0)
-Toggle.Size = UDim2.new(0, 75, 0, 60)
+Toggle.Size = UDim2.new(0, 60, 0, 50)
 Toggle.Font = Enum.Font.SourceSans
 Toggle.Text = "SISI"
 Toggle.TextColor3 = Color3.fromRGB(248, 248, 248)
-Toggle.TextSize = 50.000
+Toggle.TextSize = 45.000
 Toggle.Draggable = true
 Toggle.MouseButton1Click:connect(function()
     Library:ToggleUI()
