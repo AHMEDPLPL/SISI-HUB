@@ -53,7 +53,7 @@ Text = "Starting Script!";
 })
 
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-local Window = Library.CreateLib("✨SISI HUB V0.4✨", "Ocean")
+local Window = Library.CreateLib("✨SISI HUB V0.4✨", "Synapse")
 local Tab = Window:NewTab("Player")
 local Section = Tab:NewSection("player")
 Section:NewTextBox("Walkspeed", "", function(txt)
