@@ -1,3 +1,9 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title="SISI HUB",
+    Text="loading the hub",
+    Button1="Okay!",
+    Duration=8
+})
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
 Text = "MADE BY [AAAAA999I999]";
     Color = Color3.fromRGB(12, 260, 150);
