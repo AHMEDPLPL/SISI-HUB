@@ -9,6 +9,8 @@ Text = "MADE BY [AAAAA999I999]";
     Color = Color3.fromRGB(12, 260, 150);
 })
 
+wait(1.1)
+wait(2.1)
 
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
 Text = "SISI-hub is loading data & assets..";
