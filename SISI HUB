@@ -182,7 +182,15 @@ Section:NewButton("Revis Admin", "", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/Caniwq2N",true))()
 end)
 local Tab = Window:NewTab("Universal hubs")
-
+Section:NewButton("destroyer hub", "", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/TakeModzz/Games-HUB-Destroyer-V4/main/Games%20HUB%20Destroyer%20V4"))() 
+end)
+Section:NewButton("goust hub", "ButtonInfo", function()
+    --[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+end)
  
 local ScreenGui = Instance.new("ScreenGui")
 ScreenGui.Name = "ScreenGui"
