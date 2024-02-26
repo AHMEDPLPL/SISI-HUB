@@ -125,7 +125,7 @@ Section:NewButton("fps booster", "", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/eHEfAR8z", true))()
 end)
 Section:NewButton("free animations", "", function()
-    loadstring(game:HttpGet("https://gitlab.com/Tsuniox/lua-stuff/-/raw/master/R15GUI.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Animation-Hub/main/Animation%20Gui", true))()
 end)
 Section:NewButton("shiftlock", "", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/zBbLeZmD"))()
@@ -212,8 +212,17 @@ end)
 Section:NewButton("Pendulam Hub V5", "", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
 end)
-Section:NewButton("Vhub", "", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/V31nc/2642/Created/VHub"))()
+Section:NewButton("ORANGE X HUB", "", function()
+    --[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ImJosh66/Ab2rW/main/ORANGEX%20V5%20RELEASED%20ORANGEX%20ON%20TOP%20.txt"))()
+end)
+Section:NewButton("Rizz hub", "", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/pPMRh5YJ"))()
+end)
+Section:NewButton("", "", function()
+    
 end)
  
 local ScreenGui = Instance.new("ScreenGui")
