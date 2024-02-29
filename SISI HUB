@@ -61,13 +61,13 @@ Text = "Starting Script!";
 })
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title="SISI HUB",
-    Text="thanks for using sisi hub",
+    Text="Thanks for using SISI hub",
     Button1="NP",
     Duration=8
 })
 
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-local Window = Library.CreateLib("✨SISI HUB V0.4✨", "DarkTheme")
+local Window = Library.CreateLib("✨SISI HUB V1✨", "DarkTheme")
 local Tab = Window:NewTab("PLAYER")
 local Section = Tab:NewSection("PLAYER")
 Section:NewTextBox("Walkspeed", "", function(txt)
@@ -78,6 +78,9 @@ Section:NewTextBox("Jumpheight", "", function(txt)
 end)
 Section:NewTextBox("Gravity(Normal 196.2))", "TextboxInfo", function(txt)
 	workspace.Gravity = txt
+end)
+Section:NewTextBox("TextboxText", "TextboxInfo", function(txt)
+game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid").HipHeight = txt
 end)
 local Section = Tab:NewSection("others")
 Section:NewButton("protection (حمايه)", "", function()
