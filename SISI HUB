@@ -224,6 +224,20 @@ end)
 Section:NewButton("Admin Tools", "", function()
     loadstring(game:HttpGet(('https://pastefy.app/VYIAk3o1/raw'),true))()
 end)
+Section:NewButton("Rainbow mab", "", function()
+    --Made by SUPERSONIC GAMERZ 
+while true do
+    for _, part in ipairs(workspace:GetDescendants()) do
+        if part:IsA("BasePart") then
+            local r = math.random()
+            local g = math.random()
+            local b = math.random()
+            part.BrickColor = BrickColor.new(Color3.new(r, g, b))
+        end
+    end
+    wait(0.5)
+end
+end)
  
 local ScreenGui = Instance.new("ScreenGui")
 ScreenGui.Name = "ScreenGui"
